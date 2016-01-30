@@ -6,14 +6,22 @@ a backend server.
 
 
 ## System dependencies
- - [cpp-ethereum](https://github.com/ethereum/webthree-umbrella/wiki) - for solc, the solidity contract compiler
+ - [cpp-ethereum](https://github.com/ethereum/webthree-umbrella/wiki) - for `solc`, the solidity contract compiler
  - [ethereumjs-testrpc](https://www.npmjs.com/package/ethereumjs-testrpc) - A Ethereum JSON-RPC simulator. Let's you run 
- tests really fast.
+  tests really fast.
  - [geth](https://github.com/ethereum/go-ethereum/wiki/geth) - For running a real JSON-RPC node.
  - PostgreSQL - in case I need a database later, though I may yank that out.
  
+## Goals
+ - Manipulate Ethereum wallet and execute transactions on the server side, including creating contracts and accounts.
+ - Create unit tests and integration tests.
+ - Create an automated deployment mechanism (normally I'd use Heroku, but the geth node dependency means that won't work.)
+ - Communicate with a separate web server.
 
 
+## Running test suite
+1. Make sure `testrpc` is running
+2. `rake spec`
 
 ## README
 
