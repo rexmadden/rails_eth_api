@@ -18,7 +18,10 @@ a backend server.
  - Create an automated deployment mechanism (normally I'd use Heroku, but the geth node dependency means that won't work.)
  - Communicate with a separate web server.
 
-
+## Done So Far
+ - Run some unit tests against contracts.
+ - Use the Ethereum Ruby api.
+ 
 ## Running test suite
 1. Make sure `testrpc` is running
 2. `rake spec`
