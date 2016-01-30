@@ -5,7 +5,13 @@ if that's what you're looking for. However, I wanted to manipulate an Ethereum n
 a backend server.
 
 
-
+## System dependencies
+ - [cpp-ethereum](https://github.com/ethereum/webthree-umbrella/wiki) - for solc, the solidity contract compiler
+ - [ethereumjs-testrpc](https://www.npmjs.com/package/ethereumjs-testrpc) - A Ethereum JSON-RPC simulator. Let's you run 
+ tests really fast.
+ - [geth](https://github.com/ethereum/go-ethereum/wiki/geth) - For running a real JSON-RPC node.
+ - PostgreSQL - in case I need a database later, though I may yank that out.
+ 
 
 
 
